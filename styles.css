@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: yekan;
+}
+
+@font-face {
+    font-family: yekan;
+    src: url(./yekan-font/yekan-regular.eot);
+    src: url('./yekan-font/Yekan.woff') format('woff'),
+         url('./yekan-font/yekan-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+/* -------------------first nav bar----------------------- */
+.flexdiv {
+    display: flex;
+    align-items: center;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background: white;
+
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.nav-left img{
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+.nav-left span {
+    margin-right: 5px;
+    white-space: nowrap;
+    font-size: 13px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.search-box {
+    margin-right: 50px ;
+    border-radius: 10px;
+    padding: 13px;
+    width: 400px;
+    background: rgb(247, 247, 247);
+}
+ .search-box input {
+    width: 350px;
+    text-align: right;
+    outline: 0;
+    border: 0;
+    background: transparent;
+    font-size: 15px;
+    opacity: 50%;
+    margin-right: 10px;
+ }
+
+ .svg-1 {
+    opacity: 40%;
+    width: 20px;
+    margin-right: 3px;
+ }
+
+ /* -------------------first nav bar----------------------- */
+
+
+ /* -------------------second nav bar----------------------- */
+.nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 90px;
+    background: white;
+ }
+
+.nav2 .menu {
+    margin-right: 60px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.nav2 .menu:hover {
+    color: #1bb1ea;
+    transition: 0.4s;
+  }
+
+.nav2 .menu span {
+    margin-right: 7px;
+}
+
+.nav2 .svg-6 {
+    opacity: 40%;
+}
+ /* -------------------second nav bar----------------------- */
+
+ /* -------------------first slid show----------------------- */
+
+.slidshow1 {
+    /* box-shadow: 0 0 0 30px rgba(0, 0, 0, 0.15); */
+}
+
+.slidshow1-inner {
+    padding: 0 25px;
+    padding-top: 190px;
+    padding-bottom: 30px;
+}
+
+.carousel-item {
+    border-radius: 30px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+
+.sp-products {
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.sp-products img{
+    width: 90px;
+    cursor: pointer;
+}
+
+.zoom {
+    transition: transform 1s; 
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.05); 
+  }
+
+  .sp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.mainbanner {
+    margin-top: 50px;
+    padding: 20px 20px;
+    cursor: pointer;
+}
+ /* -------------------first slid show----------------------- */
+
+ .sp12 {
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+ }
+
+.sp12 span {
+    margin-top: 5px;
+}
+

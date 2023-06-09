@@ -1,0 +1,12 @@
+vector
+svg
+ai
+
+
+rater
+
+webp
+jpg
+jpeg
+png
+

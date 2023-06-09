@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: yekan;
+}
+
+a {
+    text-decoration: none;
+    /* color: green; */
+}
+
+.flex-div {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    padding: 20px 135px;
+    padding-bottom: 60px;
+    justify-content: space-between;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-right .logo {
+    width: 95px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+ .searchbox {
+    border: 1px solid rgb(243, 243, 243);
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 400px;
+    height:50px;
+    background-color: rgb(248, 248, 248);
+    margin-right: 50px;
+
+}
+
+.nav-left {
+    margin: 0 25px;
+}
+
+.nav-left img {
+    margin-right: 40px;
+    width: 24px;
+    cursor: pointer;
+}
+
+input {
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    text-align: right;
+    margin-right: 12px;
+    font-family: yekan;
+    font-size: 15px;
+}
+
+input::placeholder {
+    color: rgb(180, 180, 180);
+    opacity: 1;
+}
+.search2 {
+    width: 24px;
+    opacity: 0.3;
+    
+}
+
+
+@font-face {
+    font-family: yekan;
+    src: url(./yekan-font/yekan-regular.eot);
+    src: url('./yekan-font/Yekan.woff') format('woff'),
+         url('./yekan-font/yekan-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+#menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#menu li {
+    display: inline-block;
+    margin-top: 100px;
+    margin-right: 80px;
+    z-index: 1;
+    align-items: center;
+    display: flex;
+
+  }
+
+  p {
+    padding: 50px 8%;
+    text-align: justify;
+  }
+
+.span2 {
+    margin-right: 3px;
+    white-space: nowrap;
+    font-size: 10px;
+
+}
+
+.span1 {
+    margin-top: 8px;
+    white-space: nowrap;
+    font-size: 10px;
+    cursor: pointer;
+}
